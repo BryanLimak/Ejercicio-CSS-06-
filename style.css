@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(119, 157, 161);
+}
+
+.container{
+    position: absolute;
+    margin-top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    width: 500px;
+    height: 350px;
+    background-color: white;
+    overflow: auto;
+    padding: 30px;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #26e8a8 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #26e8a8;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
